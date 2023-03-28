@@ -14,8 +14,6 @@ const HobbitSettlement = class {
 
 const bree = new HobbitSettlement('Bree', 473, 'Atanatári who did not reach Beleriand');
 
-const buckland = new HobbitSettlement('Buckland', 2340, 'Gorhendad Oldbuck');
-
 const statement = () => `${theShire.name} was founded ${buckland.founding - theShire.founding} years before ${buckland.name}.`;
 
 
